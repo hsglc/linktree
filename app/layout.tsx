@@ -1,5 +1,13 @@
 import '../styles/globals.css';
 
+export const metadata = {
+    title: 'Huseyin Gulcu - Linktree',
+    description: 'Welcome to my linktree',
+    icons: {
+        icon: '/svg/vercel.svg',
+    },
+};
+
 export default function RootLayout({
     children,
 }: {
@@ -13,8 +21,3 @@ export default function RootLayout({
         </html>
     );
 }
-
-export const metadata = {
-    title: 'Huseyin Gulcu - Linktree',
-    description: 'Welcome to my linktree',
-};
