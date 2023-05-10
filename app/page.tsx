@@ -1,4 +1,3 @@
-/** @format */
 import Image from 'next/image';
 import { redirect } from 'next/navigation';
 import { get } from '@vercel/edge-config';
@@ -8,10 +7,13 @@ import { LinkCard, SocialLinkIcon } from 'components';
 import { SocialLinkIconModel } from '@/models/SocialLinkIcon';
 import { LinktreeModel } from '@/models/EdgeConfigData';
 
+export const dynamic = 'force-dynamic',
+    runtime = 'edge';
+
 export default async function Home() {
     const data: LinktreeModel.Data | undefined = await get('linktree');
 
-    if (!data) redirect('/404');
+    if (!data) redirect('https://linktr.ee/selenagomez');
 
     const links = data.links.map((link) => (
         <LinkCard key={link.title} link={link} />

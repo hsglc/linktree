@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+width="48" height="48"
+viewBox="0,0,256,256"
+style="fill:#000000;">
+<g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.33333,5.33333)"><path d="M6,6h36v36h-36z" fill="#2e93c6"></path><path d="M34.146,16.229l1.854,-1.854v-0.375h-6.636l-4.92,11.791l-5.184,-11.791h-7.26v0.375l1.884,2.261c0.075,0.09 0.116,0.203 0.116,0.32v12.286c0,0.183 -0.063,0.36 -0.177,0.502l-2.323,2.88v0.376h7v-0.375l-2.325,-2.906c-0.113,-0.142 -0.175,-0.318 -0.175,-0.5v-10.494l6.365,14.275h1.26l5.375,-12.917v10.085c0,0.133 -0.053,0.26 -0.146,0.353l-2.104,2.104v0.375h9.25v-0.375l-1.854,-1.854c-0.093,-0.093 -0.146,-0.22 -0.146,-0.353v-13.836c0,-0.133 0.053,-0.26 0.146,-0.353z" fill="#ffffff"></path></g></g>
+</svg>
