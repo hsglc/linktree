@@ -7,8 +7,8 @@ import { LinkCard, SocialLinkIcon } from 'components';
 import { SocialLinkIconModel } from '@/models/SocialLinkIcon';
 import { LinktreeModel } from '@/models/EdgeConfigData';
 
-export const dynamic = 'force-dynamic',
-    runtime = 'edge';
+export const dynamic = 'force-dynamic';
+export const runtime = 'edge';
 
 export default async function Home() {
     const data: LinktreeModel.Data | undefined = await get('linktree');
@@ -28,7 +28,7 @@ export default async function Home() {
     });
 
     return (
-        <main className="flex justify-center items-center flex-col mt-16 max-w-4xl mx-auto px-5">
+        <main className="flex justify-center items-center flex-col mt-16 max-w-4xl mx-auto px-5 pb-4">
             <Image
                 className="rounded-full"
                 alt={data.name}
